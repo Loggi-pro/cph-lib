@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['s08_131',['s08',['../group__basic__types.html#gac734b11e390fbcb315c60f047bfb7c52',1,'_common_types.h']]],
+  ['s08be_132',['s08be',['../group__endian.html#gab5f23f81436162ad86defc4e0da15160',1,'_littlebigendian_types.h']]],
+  ['s08le_133',['s08le',['../group__endian.html#ga8dd7e15a2e779976f00f68d25db6e82b',1,'_littlebigendian_types.h']]],
+  ['s16_134',['s16',['../group__basic__types.html#gaa980e2c02ba2305e0f489d5650655425',1,'_common_types.h']]],
+  ['s16be_135',['s16be',['../group__endian.html#gad3d2607f1cf07e3de6cdaa8c7a13a6d4',1,'_littlebigendian_types.h']]],
+  ['s16le_136',['s16le',['../group__endian.html#ga1ea7284b36db9c83c9799dde8caf3c71',1,'_littlebigendian_types.h']]],
+  ['s32_137',['s32',['../group__basic__types.html#gae9b1af5c037e57a98884758875d3a7c4',1,'_common_types.h']]],
+  ['s32be_138',['s32be',['../group__endian.html#gade1831fe1114b6dffc23abc0fef71b9c',1,'_littlebigendian_types.h']]],
+  ['s32le_139',['s32le',['../group__endian.html#ga5b39e10b59f07d27c3aa400af65c6b79',1,'_littlebigendian_types.h']]],
+  ['s64_140',['s64',['../group__basic__types.html#ga350c6fc928e3bdc6c6486268ac8fb269',1,'_common_types.h']]],
+  ['s64be_141',['s64be',['../group__endian.html#gaf229562ac1990739c0bd6af016657b7f',1,'_littlebigendian_types.h']]],
+  ['s64le_142',['s64le',['../group__endian.html#ga1b32e967d9d6d833ad0ed92e7b5a5d64',1,'_littlebigendian_types.h']]],
+  ['sin_143',['sin',['../classvd_1_1fixed__point.html#af52784921d6b1cf8debfbbdcaf26ddc2',1,'vd::fixed_point']]],
+  ['single_5farg_144',['SINGLE_ARG',['../group__utilities.html#gafa8624400132dca5f52f93deec70706b',1,'_types_support.h']]],
+  ['sizeof_145',['SIZEOF',['../group__utilities.html#ga49e3d563cc690e9b174a0f9d74659cb4',1,'_types_support.h']]],
+  ['sqrt_146',['sqrt',['../classvd_1_1fixed__point.html#ac119953a43a79901b0a6aeed80451200',1,'vd::fixed_point']]],
+  ['swap_147',['swap',['../classvd_1_1fixed__point.html#a6b7ad1a3ede7677b2cdb39fc1f7be017',1,'vd::fixed_point']]],
+  ['swapbytes_148',['swapBytes',['../group__utilities.html#gacb5c236e71b3dd377fbc1b639a3d2378',1,'vd']]]
+];
