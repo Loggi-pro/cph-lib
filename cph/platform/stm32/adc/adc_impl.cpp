@@ -3,6 +3,7 @@
 
 extern "C"{
   	void ADC1_2_IRQHandler(void) {
+		PROVIDE_ENTRY(ADC1_2);
 		HAL_ADC_IRQHandler(&cph::Private::ADC1_Struct::handle);
 	};
 
