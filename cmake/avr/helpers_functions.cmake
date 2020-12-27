@@ -1,0 +1,11 @@
+# - IN_VAR: EXECUTABLE_NAME ->TARGET
+# MCU
+FUNCTION(PRINT_SIZE_OF_TARGET EXECUTABLE_NAME)
+    set(OUTPUT_DIR ${EXECUTABLE_OUTPUT_PATH})
+    set(elf_file ${EXECUTABLE_NAME}.elf)
+	get_target_property(MCU ${EXECUTABLE_NAME} MCU)
+    add_custom_command(
+        TARGET ${EXECUTABLE_NAME} POST_BUILD
+        COMMAND ${CMAKE_SIZE} -C --mcu=${MCU} ${OUTPUT_DIR}/${elf_file}	
+    )
+ENDFUNCTION()
