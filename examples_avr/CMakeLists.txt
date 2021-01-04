@@ -1,4 +1,4 @@
-configure_void_library(MCU ${MCU})
+configure_void_library(MCU ${MCU} F_CPU 16000000UL)
 add_subdirectory(gui)
 add_subdirectory(modbus)
 add_subdirectory(pwm)

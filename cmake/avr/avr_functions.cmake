@@ -34,7 +34,7 @@ function(add_avr_executable EXECUTABLE_NAME MCU)
 	  ${elf_file}
 	  PROPERTIES
 		 COMPILE_OPTIONS "-mmcu=${MCU}"
-		 COMPILE_DEFINITIONS "MCU=${MCU};F_CPU=${F_CPU};${CHIP_HEADER_${MCU}}"
+		 COMPILE_DEFINITIONS "MCU=${MCU};${CHIP_HEADER_${MCU}}"
 		 LINK_OPTIONS "-mmcu=${MCU};-Wl,--gc-sections;-mrelax;-Wl,-Map,${map_file}"
 	)
 
